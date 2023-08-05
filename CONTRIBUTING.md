@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for considering contributing to my project! I appreciate your time and effort in helping make my project better.
+Thank you for considering contributing to this project! I appreciate your time and effort in helping make my project better.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Thank you for considering contributing to my project! I appreciate your time and
 
 ## How to Contribute
 
-Contributions to my project can be made in various forms, including reporting issues, submitting pull requests, and improving documentation. Your involvement is welcome and highly appreciated!
+Contributions to this project can be made in various forms, including reporting issues, submitting pull requests, and improving documentation. Your involvement is welcome and highly appreciated!
 
 ## Reporting Issues
 
