@@ -45,7 +45,7 @@ Before using this project, ensure you have the following prerequisites installed
 
 Follow these steps to set up and deploy the Laravel application on AWS:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/atilacardoso/Laravel-Docker---Terraform---PHP-Apache-using-AWS-Resources.git`
 2. Install Docker, Docker Compose, Terraform, AWS CLI, AWS-Vault, and, optionally, Visual Studio Code.
 
 ## Contributing
