@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for considering contributing to my project! I appreciate your time and effort in helping make our project better.
+Thank you for considering contributing to my project! I appreciate your time and effort in helping make my project better.
 
 ## Table of Contents
 
