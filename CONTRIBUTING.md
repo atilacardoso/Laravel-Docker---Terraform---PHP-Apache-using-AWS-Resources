@@ -43,4 +43,4 @@ If you have any questions or need assistance, please get in touch with me.
 
 ## License
 
-By contributing to our project, you agree that your contributions will be licensed under the MIT License.
+By contributing to our project, you agree that your contributions will be licensed under the [MIT License](LICENSE).
