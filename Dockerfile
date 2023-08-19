@@ -22,7 +22,7 @@ ADD ./docker-files/db-migrate.sh /bin/db-migrate.sh
 RUN chmod +x /bin/db-migrate.sh
 
 # Set a higher memory limit for Composer
-ENV COMPOSER_MEMORY_LIMIT=-1
+ENV COMPOSER_MEMORY_LIMIT=-2
 
 COPY --from=composer:1.9.1 /usr/bin/composer /usr/bin/composer
 
