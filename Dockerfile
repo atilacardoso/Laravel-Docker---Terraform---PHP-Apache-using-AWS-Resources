@@ -21,16 +21,9 @@ RUN chmod +x /bin/docker-entrypoint.sh
 ADD ./docker-files/db-migrate.sh /bin/db-migrate.sh
 RUN chmod +x /bin/db-migrate.sh
 
-# Set a higher memory limit for Composer
-ENV COMPOSER_MEMORY_LIMIT=-2
-
 COPY --from=composer:1.9.1 /usr/bin/composer /usr/bin/composer
 
 RUN composer install
-
-RUN php artisan key:generate
-
-RUN php artisan jwt:generate
 
 ENTRYPOINT ["/bin/docker-entrypoint.sh"]
 
