@@ -111,6 +111,7 @@ resource "aws_ecs_service" "api" {
   task_definition = aws_ecs_task_definition.api.family
   desired_count   = 2
   launch_type     = "FARGATE"
+  platform_version = "1.4.0"
 
   network_configuration {
     subnets = [
