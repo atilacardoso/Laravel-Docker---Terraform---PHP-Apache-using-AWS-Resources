@@ -29,8 +29,5 @@ CMD php artisan key:generate && \
     php artisan jwt:generate && \
     php database/seeds/DummyDataSeeder.php && \
     php artisan db:seed && \
-
-RUN  apache2-foreground
-
-
-ENTRYPOINT ["/bin/docker-entrypoint.sh"]
+    apache2-foreground
+    
