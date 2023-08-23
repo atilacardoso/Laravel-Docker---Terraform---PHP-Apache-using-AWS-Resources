@@ -24,7 +24,7 @@ variable "bastion_key_name" {
 
 variable "ecr_image_api" {
   description = "ECR image for API"
-  default     = "845052177927.dkr.ecr.us-east-1.amazonaws.com/recipe-app-api-devops:latest"
+  default     = "845052177927.dkr.ecr.us-east-1.amazonaws.com/dnximageforchallengefive:latest"
 }
 
  
